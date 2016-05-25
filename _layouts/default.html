@@ -21,16 +21,16 @@
           <li><a href="{{ nav.url }}">{{ nav.item }}</a></li>
           {% if nav.sub-nav != "" %}
             <ul class="sub-nav">
-              {% for sub-nav in site.data.sub-nav %}
-                <li><a href="/{{ sub-nav.sub-nav }}/{{ sub-nav.url}}"></a>{{ sub-nav.item }}</li>
-              {% endfor %}        
+              {% for sub-nav in site.data.sub-nav[nav.sub-nav] %}
+                <li><a href="/{{ sub-nav.sub-nav }}/{{ sub-nav.url}}">{{ sub-nav.item }}</a></li>
+              {% endfor %}
             </ul>
-          {% endif %} 
-        {% endfor %}  
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
 
-    {{ content }}  
+    {{ content }}
 
     {% include footer.html %}
 

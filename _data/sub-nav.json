@@ -1,28 +1,24 @@
-[
-  {
-    "benefits" : {
-      "sub-nav" : "benefits",
-      "page" : "corporation",
-      "url" : "/corporation",
-      "item" : "Corporation"
-    },
-    "benefits" : {
-      "sub-nav" : "benefits",
-      "page" : "law firms",
-      "url" : "/law-firms",
-      "item" : "Law Firms"
-    },
-    "how" : {
-      "sub-nav" : "how",
-      "page" : "contract analysis",
-      "url" : "/contract-analysis",
-      "item" : "Contract Analysis"
-    },
-    "how" : {
-      "sub-nav" : "how",
-      "page" : "due diligence",
-      "url" : "/due-diligence",
-      "item" : "Due Diligence"
-    }
-  }
-]
+{
+    "benefits": [{
+        "sub-nav": "benefits",
+        "page": "corporation",
+        "url": "/corporation",
+        "item": "Corporation"
+    }, {
+        "sub-nav": "benefits",
+        "page": "law firms",
+        "url": "/law-firms",
+        "item": "Law Firms"
+    }],
+    "how": [{
+        "sub-nav": "how",
+        "page": "contract analysis",
+        "url": "/contract-analysis",
+        "item": "Contract Analysis"
+    }, {
+        "sub-nav": "how",
+        "page": "due diligence",
+        "url": "/due-diligence",
+        "item": "Due Diligence"
+    }]
+}
