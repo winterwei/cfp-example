@@ -1,0 +1,154 @@
+{
+  "main-nav" : {
+    "Home" : {
+      "item" : "Home",
+      "url" : "",
+      "sub-nav" : ""
+    },
+    "Benefits" : {
+      "item" : "Benefits",
+      "url" : "/benefits",
+      "sub-nav" : "benefits"
+    },
+    "How it works" : {
+      "item" : "How it works",
+      "url" : "/how",
+      "sub-nav" : "how"
+    },
+    "Products" : {
+      "item" : "Products",
+      "url" : "/products",
+      "sub-nav" : "products"
+    },
+    "Partners" : {
+      "item" : "Partners",
+      "url" : "/partners",
+      "sub-nav" : ""
+    },
+    "Resources" : {
+      "item" : "Resources",
+      "url" : "info.kirasystems.com/resources",
+      "sub-nav" : "resources"
+    },
+    "Blog" : {
+      "item" : "Blog",
+      "url" : "info.kirasystems.com/blog",
+      "sub-nav" : ""
+    }
+  },
+  "sub-nav" : {
+    "benefits" : {
+      "sub-nav" : "benefits",
+      "page" : "corporation",
+      "url" : "/corporation",
+      "item" : "Corporation"
+    },
+    "benefits" : {
+      "sub-nav" : "benefits",
+      "page" : "law firms",
+      "url" : "/law-firms",
+      "item" : "Law Firms"
+    },
+    "how" : {
+      "sub-nav" : "how",
+      "page" : "contract analysis",
+      "url" : "",
+      "item" : ""
+    },
+    "" : {
+      "sub-nav" : "",
+      "page" : "due diligence",
+      "url" : "",
+      "item" : ""
+    }
+  },
+  "page-header" : {
+  },
+  "3-col" : {
+    "how it works" : {
+      "section" : "how it works",
+      "heading" : "Due Diligence",
+      "body" : "Save 20–90% of time spent on contract review, without sacrificing accuracy. Trusted on over $100 billion in transactions in 2015.",
+      "link" : "Read more",
+      "url" : "/how/due-diligence",
+      "page?" : "home"
+    },
+    "how it works" : {
+      "section" : "how it works",
+      "heading" : "",
+      "body" : "",
+      "link" : "",
+      "url" : "",
+      "page?" : ""
+    },
+    "how it works" : {
+      "section" : "how it works",
+      "heading" : "",
+      "body" : "",
+      "link" : "",
+      "url" : "",
+      "page?" : ""
+    },
+    "benefit" : {
+      "section" : "benefit",
+      "heading" : "Law Departments",
+      "body" : "General counsel and law department operations can streamline contract analysis activities with Kira.",
+      "link" : "See use cases",
+      "url" : "/benefits/corporations",
+      "page?" : "home"
+    }
+  },
+  "benefits" : {
+    "corporations" : {
+      "page" : "corporations",
+      "layout" : "2-col",
+      "heading" : "Faster, more accurate, and more comprehensive due diligence contract review",
+      "body" : "Kira helps complete contract review work faster while mitigating risk of errors  and unexpected liabilities. Users consistently report savings of 20–60% or more time on contract review projects, even the first time using the software. Kira does this by automatically highlighting and extracting relevant contract language from contracts in virtually any file format. In 2015 alone, Kira was trusted on due diligence in over $100 billion of transactions, both small and large. See how Kira works for due diligence.",
+      "img" : "calendar",
+      "img-url" : "/icon/canlender.png",
+      "link" : "See how Kira works for contract analysis",
+      "url" : "/how/contract-analysis",
+      "additional links" : "",
+      "additional link url" : ""
+    }
+  },
+  "how" : {
+    "contract analysis" : {
+      "page" : "contract analysis",
+      "layout" : "1-col",
+      "heading" : "Gain visibility into contract repositories within minutes",
+      "body" : "Kira enhances visibility into your contracts, making it easy to get a quick picture of contract terms. Rapidly respond to a change in law, anti-bribery review, or force majeure event. Easily jump between summary text and the original scanned page.",
+      "img" : "search",
+      "img link" : "/screenshots/force-majeure-sesarch.gif",
+      "link" : "",
+      "url" : "",
+      "additional links" : "",
+      "additional link url" : ""
+    },
+    "contract analysis" : {
+      "page" : "contract analysis",
+      "layout" : "2-col, 2-col-left",
+      "heading" : "Import contracts from anywhere",
+      "body" : "Kira can make sense of files in any format, including scans of third party forms. Import files and folders from your network or use the Kira API to import your existing repository and future contracts on an ongoing basis.",
+      "img" : "upload",
+      "img link" : "/screenshots/force-majeure-sesarch.gif",
+      "link" : "",
+      "url" : "",
+      "additional links" : "",
+      "additional link url" : ""
+    }
+  },
+  "about" : {
+  },
+  "resources" : {
+    "case study" : {
+      "section" : "case study",
+      "title" : "Chemtrade uses Kira Diligence Engine in US$900M Acquisition",
+      "url" : "/case-study-chemtrade-uses-kira-on-us900m-transaction",
+      "img" : "",
+      "img-url" : "",
+      "quote" : "",
+      "intro" : ""
+    }
+  }
+}

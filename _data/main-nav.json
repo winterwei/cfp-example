@@ -1,0 +1,39 @@
+[
+  {
+    "Home" : {
+      "item" : "Home",
+      "url" : "/",
+      "sub-nav" : ""
+    },
+    "Benefits" : {
+      "item" : "Benefits",
+      "url" : "/benefits",
+      "sub-nav" : "benefits"
+    },
+    "How it works" : {
+      "item" : "How it works",
+      "url" : "/how",
+      "sub-nav" : "how"
+    },
+    "Products" : {
+      "item" : "Products",
+      "url" : "/products",
+      "sub-nav" : "products"
+    },
+    "Partners" : {
+      "item" : "Partners",
+      "url" : "/partners",
+      "sub-nav" : ""
+    },
+    "Resources" : {
+      "item" : "Resources",
+      "url" : "info.kirasystems.com/resources",
+      "sub-nav" : "resources"
+    },
+    "Blog" : {
+      "item" : "Blog",
+      "url" : "info.kirasystems.com/blog",
+      "sub-nav" : ""
+    }
+  }
+]
