@@ -17,16 +17,12 @@
 
     <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
       <ul class="vertical dropdown menu" data-dropdown-menu>
-        {% for nav in site.data.navigation %}
-          <li><a href="{{ nav.path }}" {% if nav.sub-nav == "true"%}class="nav-header"{% endif %}>{{ nav.label }}</a></li>
-          {% if nav.sub-nav == "true" %}
+        {% for nav in site.data.main-nav %}
+          <li><a href="{{ nav.url }}">{{ nav.item }}</a></li>
+          {% if nav.sub-nav != "" %}
             <ul class="sub-nav">
-              {% for category in site.data.categories %}
-                {% if category.class == "main" %}
-                  <li><a href="{{ category.category | datapage_url: '/categories' }}">
-                    {{ category.category-label }}</a>
-                  </li>
-                {% endif %}
+              {% for sub-nav in site.data.sub-nav %}
+                <li><a href="/{{ sub-nav.sub-nav }}/{{ sub-nav.url}}"></a>{{ sub-nav.item }}</li>
               {% endfor %}        
             </ul>
           {% endif %} 
